@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
+    <title>ECharts扩展示例</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/app.css"/>
+</head>
+
+<body class="bg06">
+<header class="header">
+    <h3>ECharts扩展示例</h3>
+</header>
+
+<div class="wrapper">
+    <div class="container-fluid">
+        <div class="row fill-h">
+            <div class="col-lg-3 fill-h">
+                <div class="xpanel-wrapper xpanel-wrapper-1-2">
+                    <div class="xpanel">
+                        <div class="fill-h" id="topLeftChart"></div>
+                    </div>
+                </div>
+                <div class="xpanel-wrapper xpanel-wrapper-1-2">
+                    <div class="xpanel">
+                        <div class="fill-h" id="bottomLeftChart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 fill-h">
+                <div class="xpanel-wrapper xpanel-wrapper-1">
+                    <div class="xpanel no-padding no-bg">
+                        <div class="fill-h" id="centerChart"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 fill-h">
+                <div class="xpanel-wrapper xpanel-wrapper-2-3">
+                    <div class="xpanel">
+                        <div class="fill-h" id="topRightChart"></div>
+                    </div>
+                </div>
+                <div class="xpanel-wrapper xpanel-wrapper-1-3">
+                    <div class="xpanel">
+                        <div class="fill-h" id="bottomRightChart"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="../static/js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="../static/js/echarts.min.js"></script>
+<script type="text/javascript" src="../static/js/echarts-wordcloud.min.js"></script>
+{#<script type="text/javascript" src="../static/js/echarts-liquidfill.min.js"></script>#}
+<script type="text/javascript" src="../static/js/echarts-map-china.js"></script>
+</body>
+<script type="text/javascript" src="../static/chart_js/burndownChart.js"></script>
+<script type="text/javascript" src="../static/chart_js/timelineChart.js"></script>
+</html>

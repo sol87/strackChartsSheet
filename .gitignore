@@ -48,6 +48,5 @@ Icon
 apps/strack_desktop/StrackLog
 apps/strack_im/ChatConnector2.py
 apps/strack_im/StrackLog
-pyLibs/__pycache__/
-stdLibs/std_qt/__pycache__/
+*/__pycache__/
 error.log
